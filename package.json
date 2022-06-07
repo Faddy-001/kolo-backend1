@@ -1,0 +1,43 @@
+{
+  "name": "kolonizer_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Anwarul Haque",
+  "license": "ISC",
+  "dependencies": {
+    "ansi-regex": "^6.0.1",
+    "aws-sdk": "^2.976.0",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-jwt": "^6.1.0",
+    "express-validator": "^6.12.1",
+    "fast-csv": "^4.3.6",
+    "is-svg": "^4.3.2",
+    "json2csv": "^5.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^9.1.3",
+    "multer": "^1.4.3",
+    "multer-s3": "^2.9.0",
+    "mysql2": "^2.3.0",
+    "node-cron": "^3.0.0",
+    "nodemailer": "^6.6.3",
+    "nodemailer-express-handlebars": "^4.0.0",
+    "random-number": "0.0.9",
+    "sequelize": "^6.6.5",
+    "tar": "^6.1.11",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

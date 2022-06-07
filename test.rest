@@ -1,0 +1,11 @@
+//GET http://localhost:3000/api/user
+POST   http://localhost:3000/api/signin
+content-type: application/json
+Authorization: 
+
+{
+    "username":"shanu@kolonizer.com",
+    "password":"1234"
+}
+
+//navneet test 123
